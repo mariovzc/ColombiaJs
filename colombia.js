@@ -9030,9 +9030,8 @@ var colombia = {
     return statesArr;
   },
   cities: function(state_id){
-  	 var newArr = citiesArr.filter(function(obj){
+  	  return citiesArr.filter(function(obj){
       	return obj.state_id == state_id;
-     });
-      return newArr;
-	}
+     });;
+  }
 }
