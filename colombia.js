@@ -1,3 +1,9 @@
+/*
+ colombia.js v 1.0
+ STATES OBJECT id , NAME
+ cities OBJECT city_id, name, state_id, state_name
+  MIT License. Copyright 2016 Mario Vizcaino. https://github.com/mariovzc
+*/
 var statesArr = [
  {
    "id":91,
